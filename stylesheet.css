@@ -1,0 +1,98 @@
+body {
+   margin: 0;
+    padding: 0;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background: #222122;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+h1, h2, h3, h4{
+    font-size: 40px;
+    font-family: Poppins(sans-serif);
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+}
+
+p1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.head{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.interiro{
+    height: 400px;
+    width: 100%;
+    background-image: url("interiro1.jpg");
+    text-align: center;
+    padding: 140px 0;
+    margin-bottom: 20px;
+}
+.interior-section p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.search-box{
+    max-width: 550px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.search-box input{
+    width:70% ;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+}
+
+.search-box button{
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+}
+.imagepara{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.img{
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+}
+
+.text{
+    flex: 1;
+    padding-right: 20px;
+}
+
+
+
